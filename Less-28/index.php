@@ -45,7 +45,7 @@ if(isset($_GET['id']))
 	else 
 	{
 		echo '<font color= "#FFFF00">';
-		//print_r(mysql_error());
+		print_r(mysql_error());
 		echo "</font>";  
 	}
 }
